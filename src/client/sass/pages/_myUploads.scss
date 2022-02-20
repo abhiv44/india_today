@@ -1,0 +1,29 @@
+.cardLayout {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    .cardContent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .cardSubContent {
+            display: flex;
+            margin: 1rem;
+        }
+    }
+}
+.details {
+    width: 100%;
+    padding: 1rem;
+}
+
+.contentSpacing {
+    padding: 1rem;
+}
+
+.selectField {
+    width: 50%;
+    margin: 1rem;
+}

@@ -1,0 +1,16 @@
+#appbar{
+    background-color: $color-primary;
+    .left{
+    display: flex;
+    align-items: center;
+        margin-right: auto;
+        a{
+        text-decoration: none;
+        color: inherit;
+        }
+    }
+}
+.upper-header{
+    background-color: $color-black;
+    padding: .5rem;
+}
