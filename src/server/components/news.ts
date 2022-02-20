@@ -21,11 +21,11 @@ export default {
      },
      async updateNews(req, res) {
           try {
-               const { title, type, subType } = req.body
+               const { title, type, subType, id } = req.body
                await global.con
                     .db('indiaToday')
                     .collection('newsfeed')
-                    .updateOne({ _id: req.user.id },
+                    .updateOne({ _id: new ObjectId(id)},
                          {
                               $set: {
                                    title,
